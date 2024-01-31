@@ -1,0 +1,64 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.form-wrapper {
+  width: 100vw;
+  height: 100vh;
+  background-color: lightyellow;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 45px;
+}
+
+.form-wrapper h2 {
+  text-transform: uppercase;
+}
+
+.form-block {
+  display: flex;
+  padding: 30px;
+  border: 1px solid grey;
+  
+}
+
+.fill {
+  width: 300px;
+  border-right: 1px solid grey;
+  padding-right: 8px;
+}
+
+.show {
+  width: 300px;
+  border-left: 1px solid grey;
+  padding-left: 8px;
+}
+
+form {
+  width: 100%;
+}
+
+form input,
+.line {
+  display: block;
+  width: 100%;
+  margin-bottom: 8px;
+  background-color: transparent;
+  outline: none;
+  box-shadow: none;
+  border: 1px solid lightgray;
+  border-radius: 8px;
+  min-height: 36px;
+  padding: 0 0 0 8px;
+}
+
+button {
+  outline: none;
+  box-shadow: none;
+  border: 1px solid lightcyan;
+  border-radius: 8px;
+  min-height: 46px;
+  min-width: 150px;
+}
