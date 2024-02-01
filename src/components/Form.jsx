@@ -6,7 +6,7 @@ const INIT_FORM_STATE = { name: "", lastname: "", email: "", phone: "" };
 export const Form = () => {
     const formStorageObj = JSON.parse(localStorage.getItem("formState"));
 
-    const [form, setForm] = useState(formStorageObj);
+    const [form, setForm] = useState(formStorageObj || INIT_FORM_STATE );
    
 
     const submitHeandler = (e) => {
